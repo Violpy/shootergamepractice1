@@ -119,7 +119,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!70 &5732617858577475363
 CapsuleCollider2D:
@@ -170,4 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69c32d1b364989249b377687df8b1916, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FireBall
-  damage: 20
+  type: 0
+  damage: 10
+  lifetime: 2
+  explosionRadius: 2
